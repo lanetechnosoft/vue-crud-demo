@@ -26,6 +26,7 @@ const routes = [
     }
 ];
 */
+//createApp.use()
 createApp(App).use(router).mount('#app')
 /*
 const router = new VueRouter({ mode: "history", routes: routes });

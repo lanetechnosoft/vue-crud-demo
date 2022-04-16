@@ -40,7 +40,7 @@
           <label><strong>Description:</strong></label> {{ currentTutorial.category_name }}
         </div>
         <div>
-          <label><strong>Status:</strong></label> {{ currentTutorial.status ? "Published" : "Pending" }}
+          <label><strong>Status:</strong></label> {{ currentTutorial.status==1 ? "Published" : "Pending" }}
         </div>
 
         <router-link :to="'/tutorials/' + currentTutorial.catid" class="badge badge-warning">Edit</router-link>

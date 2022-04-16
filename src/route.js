@@ -9,7 +9,6 @@ const routes = [
         name: "tutorials",
         component: () => import("./components/TutorialsList")
     },
-    /*
     {
         path: "/tutorials/:id",
         name: "tutorial-details",
@@ -20,7 +19,6 @@ const routes = [
         name: "add",
         component: () => import("./components/AddTutorial")
     }
-    */
 ];
 
 const router = createRouter({
